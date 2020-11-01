@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.999-ea" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label text="Enter your name:"  GridPane.columnIndex="0" />
+      <TextField GridPane.columnIndex="1" />
+       <Button text="Click to Set Name"  Gridpane.rowIndex="1" Gridpane.columnIndex="2" />
+       <Label text="" fx:id="lblName"  Gridpane.rowIndex="0" Gridpane.columnIndex="2" />
+   </children>
+</GridPane>
